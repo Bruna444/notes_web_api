@@ -1,0 +1,1 @@
+export const formatDate = (date) => Intl.DateTimeFormat(navigator.language, {dataStyle:"short", timeStyle:"short"}).format(date);
